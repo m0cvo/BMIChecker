@@ -8,9 +8,9 @@
         Title="Test Screen" Height="450" Width="800" Background="#FF04F4FF">
     <Grid>
         <Label Content="Enter your height in cm: " HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Label Content="Enter your mass in kg:" HorizontalAlignment="Left" Margin="26,0,0,0" VerticalAlignment="Center" FontSize="14"/>
+        <Label Content="Enter your mass in kg:" HorizontalAlignment="Left" Margin="25,207,0,0" VerticalAlignment="Top" FontSize="14"/>
         <TextBox x:Name="heightBox" HorizontalAlignment="Left" Margin="176,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
-        <TextBox x:Name="massBox" HorizontalAlignment="Left" Margin="176,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="massBox" HorizontalAlignment="Left" Margin="176,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Text="test"/>
         <Label Content="Your BMI is:" HorizontalAlignment="Left" Margin="91,284,0,0" VerticalAlignment="Top" FontSize="14"/>
         <TextBox x:Name="bmiBox" HorizontalAlignment="Left" Margin="176,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
         <Button Content="Calculate" HorizontalAlignment="Left" Margin="176,370,0,0" VerticalAlignment="Top" FontSize="14" Height="25" Width="100" Click="Button_Click_1"/>
