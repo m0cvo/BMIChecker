@@ -1,5 +1,7 @@
 # BMIChecker
 
-A WPF app written in VS2022 using dotnet 6.0.  Uses XAML to create the interface and C# code behind to calculate the BMI from height and mass values.
+A body mass index (BMI) calculator app.
 
-14/02/2022
+Click start on the opening page to access the calculator and then enter your height in cm and mass in kg.  Click the calculate button and your BMI will be displayed.
+
+Copyright N Booth for Mogpie. 2022.
